@@ -6,24 +6,19 @@ namespace _27AccessControl
 {
     public class AccessControl
     {
-
         public int CurrentCount { get; set; }
         public int MaxCount { get; private set; }
 
         public AccessControl(int maxCount)
         {
-            this.MaxCount = MaxCount;
-        }
-
-        public bool canEnter()
-        {
-            return this.CurrentCount < this.MaxCount;
+            this.MaxCount = maxCount;
         }
 
         public void increment()
         {
             this.CurrentCount++;
         }
+
         public void decrement()
         {
             this.CurrentCount--;
@@ -38,5 +33,22 @@ namespace _27AccessControl
         {
             this.CurrentCount -= count;
         }
+
+        public bool canEnter()
+        {
+            return this.CurrentCount < this.MaxCount;
+        }
+
+        public bool canEnter(int count)
+        {
+            return this.CurrentCount + count <= this.MaxCount && this.CurrentCount + count >= 0;
+        }
+
+        public bool canLeave(int count)
+        {
+            return this.CurrentCount - count >= 0 && this.CurrentCount - count <= this.MaxCount;
+        }
+
+
     }
 }
