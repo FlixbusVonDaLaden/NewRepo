@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using _28Glueckswurf;
 
 namespace _29GlueckswurfConsole
 {
@@ -14,7 +15,7 @@ namespace _29GlueckswurfConsole
         [STAThread]
         static void Main()
         {
-            Glueckswurf g = new Glueckswurf(100);
+            _28Glueckswurf.Glueckswurf g = new _28Glueckswurf.Glueckswurf(100);
             while (g.Guthaben > 0) {
             }
             Console.WriteLine("Bitte Einsatz eingeben: ");
