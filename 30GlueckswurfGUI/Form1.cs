@@ -132,5 +132,50 @@ namespace _30GlueckswurfGUI
             timer.Enabled = false;
             
         }
+
+        private void lbGewinnchance_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtGuthaben_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbEinsatz_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbGewinn_Click(object sender, EventArgs e)
+        {
+            this.btn1.BackColor = SystemColors.ControlLight;
+            this.btn2.BackColor = SystemColors.ControlLight;
+            this.btn3.BackColor = SystemColors.ControlLight;
+            this.btn4.BackColor = SystemColors.ControlLight;
+            this.btn5.BackColor = SystemColors.ControlLight;
+            this.btn6.BackColor = SystemColors.ControlLight;
+        }
+
+        private void txtWuerfel2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtWuerfel3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtWuerfel1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
