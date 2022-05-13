@@ -69,6 +69,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28Glueckswurf", "28Gluecksw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30GlueckswurfGUI", "30GlueckswurfGUI\30GlueckswurfGUI.csproj", "{2C152D37-FA49-4665-957C-D8A55B897B63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31ImageBrowser", "31ImageBrowser\31ImageBrowser.csproj", "{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{2C152D37-FA49-4665-957C-D8A55B897B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C152D37-FA49-4665-957C-D8A55B897B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C152D37-FA49-4665-957C-D8A55B897B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
