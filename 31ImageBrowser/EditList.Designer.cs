@@ -83,7 +83,7 @@ namespace _31ImageBrowser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(372, 160);
+            this.ClientSize = new System.Drawing.Size(661, 323);
             this.Controls.Add(this.lbAdd);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnOK);
