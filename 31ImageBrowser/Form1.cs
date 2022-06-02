@@ -105,5 +105,10 @@ namespace _31ImageBrowser
         {
 
         }
+
+        private void lbDatei_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

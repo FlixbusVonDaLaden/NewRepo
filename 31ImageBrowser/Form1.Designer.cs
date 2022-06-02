@@ -72,6 +72,7 @@ namespace _31ImageBrowser
             this.lbDatei.Size = new System.Drawing.Size(130, 19);
             this.lbDatei.TabIndex = 1;
             this.lbDatei.Text = "Keine Datei geladen";
+            this.lbDatei.Click += new System.EventHandler(this.lbDatei_Click);
             // 
             // btnDatei
             // 

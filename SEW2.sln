@@ -69,7 +69,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28Glueckswurf", "28Gluecksw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30GlueckswurfGUI", "30GlueckswurfGUI\30GlueckswurfGUI.csproj", "{2C152D37-FA49-4665-957C-D8A55B897B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31ImageBrowser", "31ImageBrowser\31ImageBrowser.csproj", "{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31ImageBrowser", "31ImageBrowser\31ImageBrowser.csproj", "{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "32Turtle", "32Turtle\32Turtle.csproj", "{B96FA030-9E9E-4BFF-B608-926B68C7BA66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test4_Taschenrechner", "Test4_Taschenrechner\Test4_Taschenrechner.csproj", "{7883592B-6025-4040-9FFC-90BDEA09B1F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2D81CE0-F1CE-4F02-B1C1-69C297C9A438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96FA030-9E9E-4BFF-B608-926B68C7BA66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96FA030-9E9E-4BFF-B608-926B68C7BA66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96FA030-9E9E-4BFF-B608-926B68C7BA66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96FA030-9E9E-4BFF-B608-926B68C7BA66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7883592B-6025-4040-9FFC-90BDEA09B1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7883592B-6025-4040-9FFC-90BDEA09B1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7883592B-6025-4040-9FFC-90BDEA09B1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7883592B-6025-4040-9FFC-90BDEA09B1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
